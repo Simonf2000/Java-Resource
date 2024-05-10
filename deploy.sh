@@ -16,10 +16,7 @@ git init
 git add -A
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io
-git push -f https://github.com/AFeiNice/VuePress-markdown-.git master
-
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-# git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
+# 将静态文件推送到 master 分支
+git push -f git@github.com:Simonf2000/Java-Resource.git main:gh-pages
 
 cd -

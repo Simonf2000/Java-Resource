@@ -3,29 +3,48 @@ module.exports = {
     description: "markdown集合",
     dest: "./dist",
     port: 8884,
-    base:"/doc/",
+    base: '/Java-Resource/',
     markdown: {
-      lineNumbers: true
-    },
+      // ......
+      extendMarkdown: md => {
+        md.use(require("markdown-it-disable-url-encode"));
+      }
+    },  
     themeConfig: {
-      nav: [ // 导航栏配置
-        {
-          text: '简介',
-          link: '/'
-        },
-        {
-          text: '例子一',
-          link: '/guide/eg1/'
-        },
-        {
-          text: '例子二',
-          link: '/guide/eg2/'
-        },
-      ],
-      sidebar: 'auto', // 侧边栏配置
-      sidebarDepth: 2, //展示 标签深度
-      displayAllHeaders: true, //左侧导航显示实时高亮
-      activeHeaderLinks: true, //嵌套的标题链接和 URL 中的 Hash 值会实时更新
-      lastUpdated: 'Last Updated',
-    }
+      nav: [
+        { text: '首页', link: '/' },
+        { 
+            text: 'simonf 博客', 
+            items: [
+                { text: 'blog', link: 'https://simonf.cn/' }
+            ]
+        }
+    ],
+    sidebar: [
+      {
+          title: 'JavaSE',
+          path: '/JavaSE/安装笔记',
+          collapsable: false, // 不折叠
+          children: [
+              { title: "安装笔记", path: "/JavaSE/安装笔记.md" }
+          ]
+      },
+      {
+        title: "MySQL",
+        path: '/MySQL/尚硅谷_柴林燕_MySQL8_可视化工具Navicat的使用',
+        collapsable: false, // 不折叠
+        children: [
+          { title: "可视化工具Navicat的使用", path: "/MySQL/尚硅谷_柴林燕_MySQL8_可视化工具Navicat的使用.md" },
+          { title: "MySQL8.0_安装和使用文档", path: "/MySQL/尚硅谷_柴林燕_MySQL8.0_安装和使用文档.md" }
+        ],
+      }
+    ], // 侧边栏配置
+
+    },
+    theme: 'reco',
+    locales: {
+      '/': {
+        lang: 'zh-CN'
+      }
+    },
   };

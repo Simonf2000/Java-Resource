@@ -1,7 +1,7 @@
 ---
 home: true
 actionText: 开始围观
-actionLink: /guide/eg1/
+actionLink: /guide/
 features:
 - title: 例子一
   details: 描述细节。

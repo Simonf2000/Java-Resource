@@ -13,9 +13,11 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.9.7"
+    "vuepress": "^1.9.7",
+    "vuepress-theme-reco": "^1.6.17"
   },
   "dependencies": {
+    "markdown-it-disable-url-encode": "^1.0.1",
     "vuepress-sidebar-atuo": "^1.0.4"
   }
 }
