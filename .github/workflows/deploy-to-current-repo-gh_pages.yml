@@ -1,0 +1,18 @@
+name: A TO A:GH_PAGES
+on: [push]
+jobs:
+  build-and-deploy:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@main
+
+    - name: vuepress-deploy
+      uses: jenkey2011/vuepress-deploy@main
+      env:
+          # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          TARGET_REPO: Simonf2000/Java-Resource
+          TARGET_BRANCH: main
+          BUILD_SCRIPT: yarn && yarn build
+          BUILD_DIR: blog/.vuepress/dist/     
