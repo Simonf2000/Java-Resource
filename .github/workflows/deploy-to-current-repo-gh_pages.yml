@@ -8,7 +8,7 @@ jobs:
       uses: actions/checkout@main
 
     - name: vuepress-deploy
-      uses: jenkey2011/vuepress-deploy@main
+      uses: Simonf2000/Java-Resource@v1.0.0
       env:
           # @see https://docs.github.com/cn/actions/reference/authentication-in-a-workflow#about-the-github_token-secret
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
