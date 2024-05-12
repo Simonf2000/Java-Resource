@@ -15,4 +15,5 @@ jobs:
           TARGET_REPO: Simonf2000/Java-Resource
           TARGET_BRANCH: gh-pages
           BUILD_SCRIPT: yarn && yarn build
-          BUILD_DIR: blog/.vuepress/dist/     
+          BUILD_DIR: blog/.vuepress/dist/  
+          CUSTOM_DOMAIN: simonf.cn
