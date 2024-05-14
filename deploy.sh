@@ -7,7 +7,7 @@ set -e
 npm run docs:build
 
 # 进入生成的文件夹
-cd E:\Java\Java-Learning-Resource\VuePress-markdown-master\docs\.vuepress\dist
+cd "E:/Java/Java-Learning-Resource/VuePress-markdown-master/docs/.vuepress/dist"
 
 # 如果是发布到自定义域名
 # echo 'www.example.com' > CNAME
