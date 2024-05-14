@@ -26,7 +26,11 @@ module.exports = {
           path: '/JavaSE/安装笔记',
           collapsable: false, // 不折叠
           children: [
-              { title: "安装笔记", path: "/JavaSE/安装笔记.md" }
+            //图片地址换成能显示的
+              { title: "安装笔记", path: "/JavaSE/安装笔记.md" },
+              { title: "JDK的下载、安装与配置", path: "/JavaSE/JDK的下载、安装与配置.md" },
+              { title: "Java程序编译运行常见问题", path: "/JavaSE/Java程序编译运行常见问题.md" },
+              { title: "Java概述", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第1章 Java概述.md" }
           ]
       },
       {
