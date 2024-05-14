@@ -1,7 +1,7 @@
 module.exports = {
     title: '静态markdown渲染框架',
     description: "markdown集合",
-    dest: "./dist",
+    dest: 'E:/Java/Java-Learning-Resource/VuePress-markdown-master/docs/.vuepress/dist',
     port: 8884,
     base: '/Java-Resource/',
     markdown: {
