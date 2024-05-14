@@ -20,6 +20,6 @@ git add -A
 git commit -m 'deploy'
 
 # 将静态文件推送到 master 分支
-git push -f git@github.com:Simonf2000/Java-Resource.git main:gh-pages
+git push -f git@github.com:Simonf2000/Java-Resource.git master:gh-pages
 
 cd -
