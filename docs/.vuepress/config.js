@@ -1,6 +1,6 @@
-module.exports = {                      //./deploy.sh
-    title: '静态markdown渲染框架',
-    description: "markdown集合",
+module.exports = {                      //./deploy.sh  
+    title: 'Java学习资料',       //所有图片都得传上去，不然会报错.有些空格得去掉，字体变灰也加载不出来，类似\<clinit\>要加转义字符
+    description: "JavaSE,MySQL,Spring,MyBatis",
     dest: 'E:/Java/Java-Learning-Resource/VuePress-markdown-master/docs/.vuepress/dist',
     port: 8884,
     base: '/Java-Resource/',
@@ -33,7 +33,11 @@ module.exports = {                      //./deploy.sh
               { title: "Java概述", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第1章 Java概述.md" },
               { title: "Java基础语法", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第2章 Java基础语法.md" },
               { title: "流程控制", path: "/JavaSE/流程控制.md" },
-              { title: "数组", path: "/JavaSE/尚硅谷_李金辉_第四章 数组.md" }
+              { title: "数组", path: "/JavaSE/尚硅谷_李金辉_第四章 数组.md" },
+              { title: "方法", path: "/JavaSE/尚硅谷_李金辉_第五章 方法.md" },
+              { title: "面向对象基础（上）", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第6章 面向对象基础（上）.md" },
+              { title: "面向对象基础（中）", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第7章 面向对象基础（中）.md" },
+              { title: "面向对象基础（下）", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第8章 面向对象基础（下）.md" }
           ]
       },
       {

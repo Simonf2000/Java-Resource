@@ -3,14 +3,14 @@ home: true
 actionText: 开始围观
 actionLink: /guide/
 features:
-- title: 例子一
-  details: 描述细节。
+- title: 全部Java基础资料
+  details: 涵盖各个方位
+
+- title: md文档形式呈现
+  details: 方便阅读，随时翻阅
 
 - title: 
   details: 
-
-- title: 例子二
-  details: 描述细节。
 
 - title: 
   details: 
