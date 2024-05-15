@@ -1,4 +1,4 @@
-module.exports = {
+module.exports = {                      //./deploy.sh
     title: '静态markdown渲染框架',
     description: "markdown集合",
     dest: 'E:/Java/Java-Learning-Resource/VuePress-markdown-master/docs/.vuepress/dist',
@@ -30,7 +30,10 @@ module.exports = {
               { title: "安装笔记", path: "/JavaSE/安装笔记.md" },
               { title: "JDK的下载、安装与配置", path: "/JavaSE/JDK的下载、安装与配置.md" },
               { title: "Java程序编译运行常见问题", path: "/JavaSE/Java程序编译运行常见问题.md" },
-              { title: "Java概述", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第1章 Java概述.md" }
+              { title: "Java概述", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第1章 Java概述.md" },
+              { title: "Java基础语法", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第2章 Java基础语法.md" },
+              { title: "流程控制", path: "/JavaSE/流程控制.md" },
+              { title: "数组", path: "/JavaSE/尚硅谷_李金辉_第四章 数组.md" }
           ]
       },
       {
