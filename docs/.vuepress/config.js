@@ -39,7 +39,8 @@ module.exports = {                      //./deploy.sh
               { title: "面向对象基础（中）", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第7章 面向对象基础（中）.md" },
               { title: "面向对象基础（下）", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第8章 面向对象基础（下）.md" },
               { title: "异常", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第8章 异常.md" },
-              { title: "集合", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第11章 集合.md" }
+              { title: "集合", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第11章 集合.md" },
+              { title: "泛型", path: "/JavaSE/尚硅谷_李金辉_JavaSE_第12章 泛型.md" }
           ]
       },
       {
