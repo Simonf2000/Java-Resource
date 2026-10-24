@@ -69,7 +69,12 @@ module.exports = {                      //./deploy.sh
           { title: "JDBC的介绍", path: "/JavaEE/day01_jdbc.md" },
           { title: "JDBC的HelloWorld", path: "/JavaEE/day02_jdbc.md" },
           { title: "HTML", path: "/JavaEE/day03_HTML.md" },
-          { title: "JDBC笔记", path: "/MySQL/尚硅谷_柴林燕_MySQL8.0_JDBC笔记.md" }
+          { title: "HTML笔记", path: "/JavaEE/day03_HTML.md" },
+          { title: "JS", path: "/JavaEE/day04_JS.md" },
+          { title: "TOMCAT", path: "/JavaEE/day05_XML_TOMCAT.md" },
+          { title: "Servlet知识1", path: "/JavaEE/day06_Servlet.md" },
+          { title: "Servlet知识2", path: "/JavaEE/day07_Servlet.md" },
+          { title: "会话", path: "/JavaEE/day08_会话.md" }
         ],
       }
     ], // 侧边栏配置
