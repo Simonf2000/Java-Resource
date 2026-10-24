@@ -74,7 +74,14 @@ module.exports = {                      //./deploy.sh
           { title: "TOMCAT", path: "/JavaEE/day05_XML_TOMCAT.md" },
           { title: "Servlet知识1", path: "/JavaEE/day06_Servlet.md" },
           { title: "Servlet知识2", path: "/JavaEE/day07_Servlet.md" },
-          { title: "会话", path: "/JavaEE/day08_会话.md" }
+          { title: "会话", path: "/JavaEE/day08_会话.md" },
+          { title: "前端工程化1", path: "/JavaEE/day09_前端工程化.md" },
+          { title: "前端工程化2", path: "/JavaEE/day10_前端工程化.md" },
+          { title: "前端工程化3", path: "/JavaEE/day12_前端工程化.md" },
+          { title: "前端工程化4", path: "/JavaEE/day13_前端工程化.md" },
+          { title: "前端工程化5", path: "/JavaEE/day14_前端工程化.md" },
+          { title: "前端工程化6", path: "/JavaEE/day15_前端工程化.md" },
+          { title: "微头条", path: "/JavaEE/day16_微头条.md" }
         ],
       }
     ], // 侧边栏配置
