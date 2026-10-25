@@ -81,7 +81,7 @@ module.exports = {                      //./deploy.sh
           { title: "前端工程化4", path: "/JavaEE/day13_前端工程化.md" },
           { title: "前端工程化5", path: "/JavaEE/day14_前端工程化.md" },
           { title: "前端工程化6", path: "/JavaEE/day15_前端工程化.md" },
-          { title: "微头条", path: "/JavaEE/day16_微头条.md" }
+          { title: "JAVAWEB", path: "/JavaEE/01_第一章概述.md" }
         ],
       }
     ], // 侧边栏配置

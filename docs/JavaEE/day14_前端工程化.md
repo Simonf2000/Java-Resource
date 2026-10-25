@@ -221,7 +221,7 @@ user.$subscribe(()=>{
 - 在showSchedule页面挂载完成时，发送异步请求到服务器
   - 携带当前登录人的uid
 
-- 服务器就接收请求，获取uid,调用service,service调dao,查到当前用户的日程信息(List<SysSchedule>)
+- 服务器就接收请求，获取uid,调用service,service调dao,查到当前用户的日程信息(List\<SysSchedule\>)
 - servlet将list集合放到Result的data属性上，将Result对象写回前端
 - 前段拿到数据，赋值给数组或pinia，数组或pinia和页面上的表格进行的列表渲染
 
