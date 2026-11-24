@@ -84,7 +84,8 @@ module.exports = {                      //./deploy.sh
           { title: "JAVAWEB", path: "/JavaEE/01_第一章概述.md" },
           { title: "HTML&CSS", path: "/JavaEE/02_第二章 HTML&CSS.md" },
           { title: "JavaScript", path: "/JavaEE/03_第三章 JavaScript.md" },
-          { title: "Tomcat", path: "/JavaEE/04_第四章 XML_Tomcat_HTTP.md" }
+          { title: "Tomcat", path: "/JavaEE/04_第四章 XML_Tomcat_HTTP.md" },
+          { title: "Servlet", path: "/JavaEE/05_第五章 Servlet.md" }
         ],
       }
     ], // 侧边栏配置
