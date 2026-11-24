@@ -83,7 +83,8 @@ module.exports = {                      //./deploy.sh
           { title: "前端工程化6", path: "/JavaEE/day15_前端工程化.md" },
           { title: "JAVAWEB", path: "/JavaEE/01_第一章概述.md" },
           { title: "HTML&CSS", path: "/JavaEE/02_第二章 HTML&CSS.md" },
-          { title: "JavaScript", path: "/JavaEE/03_第三章 JavaScript.md" }
+          { title: "JavaScript", path: "/JavaEE/03_第三章 JavaScript.md" },
+          { title: "Tomcat", path: "/JavaEE/04_第四章 XML_Tomcat_HTTP.md" }
         ],
       }
     ], // 侧边栏配置
