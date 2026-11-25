@@ -86,7 +86,8 @@ module.exports = {                      //./deploy.sh
           { title: "JavaScript", path: "/JavaEE/03_第三章 JavaScript.md" },
           { title: "Tomcat", path: "/JavaEE/04_第四章 XML_Tomcat_HTTP.md" },
           { title: "Servlet", path: "/JavaEE/05_第五章 Servlet.md" },
-          { title: "Ajax", path: "/JavaEE/06_第六章 会话_过滤器_监听器_Ajax.md" }
+          { title: "Ajax", path: "/JavaEE/06_第六章 会话_过滤器_监听器_Ajax.md" },
+          { title: "前端工程化", path: "/JavaEE/07_第七章 前端工程化.md" }
         ],
       }
     ], // 侧边栏配置
