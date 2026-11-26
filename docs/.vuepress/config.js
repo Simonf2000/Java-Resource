@@ -90,6 +90,16 @@ module.exports = {                      //./deploy.sh
           { title: "前端工程化", path: "/JavaEE/07_第七章 前端工程化.md" },
           { title: "微头条项目开发", path: "/JavaEE/08_第八章 微头条项目开发.md" }
         ],
+      },
+      {
+        title: "BackendEngineering",
+        path: '/BackendEngineering/一、Maven依赖管理项目构建工具',
+        collapsable: true, // 不折叠
+        children: [
+          { title: "Maven", path: "/BackendEngineering/一、Maven依赖管理项目构建工具.md" },
+          { title: "Spring", path: "/BackendEngineering/二、Spring企业开发核心框架.md" },
+          { title: "Spring MVC", path: "/BackendEngineering/三、Spring MVC控制层框架.md" }
+        ],
       }
     ], // 侧边栏配置
 
