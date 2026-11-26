@@ -1864,33 +1864,33 @@ public class UserController {
          *
          * description: schedule业务接口
          */
-    
+        
         public interface ScheduleService {
-    
+        
             /**
              * 返回全部学习计划
              * @return
              */
             List<Schedule> getAll();
-    
+        
             /**
              * 保存学习计划
              * @param schedule
              */
             void saveSchedule(Schedule schedule);
-    
+        
             /**
              * 更新学习计划
              * @param schedule
              */
             void updateSchedule(Schedule schedule);
-    
+        
             /**
              * 移除学习计划
              * @param
              */
             void removeById(Integer id);
-    
+        
         }
         ```
     2.  业务实现
@@ -3483,7 +3483,7 @@ spring-persist.xml配置方式：
 
 结论：子容器中的 EmpController 装配父容器中的 EmpService 能够正常工作。说明子容器可以访问父容器中的bean。
 
-分析：“子可用父，父不能用子”的根本原因是子容器中有一个属性 \<span style="color:blue;font-weight:bold;">getParent()\</span> 可以获取到父容器这个对象的引用。
+分析：“子可用父，父不能用子”的根本原因是子容器中有一个属性 \<span style="color:blue;font-weight:bold;"\>getParent()\</span\> 可以获取到父容器这个对象的引用。
 
 源码依据：
 
@@ -3525,7 +3525,7 @@ Creating shared instance of singleton bean 'helloService'
 
         结论：基于 spring-mvc.xml 配置文件创建的 EmpService 的 bean 不带有声明式事务的功能
 
-        影响：DispatcherServlet 处理浏览器请求时会调用自己创建的 EmpController，然后再调用自己创建的EmpService，而这个 EmpService 是没有事务的，所以处理请求时\<span style="color:blue;font-weight:bold;">没有事务功能的支持\</span>。
+        影响：DispatcherServlet 处理浏览器请求时会调用自己创建的 EmpController，然后再调用自己创建的EmpService，而这个 EmpService 是没有事务的，所以处理请求时\<span style="color:blue;font-weight:bold;"\>没有事务功能的支持\</span\>。
     -   spring-persist.xml：配置声明式事务。所以可以给 service 类附加声明式事务功能。
 
         结论：基于 spring-persist.xml 配置文件创建的 EmpService 有声明式事务的功能
